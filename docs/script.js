@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://collaborative-test-in-class.onrender.com");
 const canvas = document.getElementById("board");
 const ctx = canvas.getContext("2d");
 
